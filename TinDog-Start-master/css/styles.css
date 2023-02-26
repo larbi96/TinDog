@@ -1,10 +1,91 @@
 #title{
     background-color: #ff4c68;
+    color: white;
+}
+
+body{
+    font:  "Montserrat-Black, sans-serif";
 }
 
 .intro-text{
     font: "Montserrat-Black, sans-serif";
-    size: 3rem;
+    font-size: 3rem;
     line-height: 1.5;
     font-weight: 900;
+}
+
+.container-fluid{
+    padding: 3% 15%;
+}
+
+.intro-text{
+    padding-top: 3%;
+}
+
+/* Navigation Bar*/
+.navbar{
+    padding-bottom : 4.5rem;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-item{
+    padding: 0 18px;
+}
+
+.nav-link{
+    font-size: 1.2rem;
+}
+
+/*Download Buttoms*/
+
+.download-button{
+    margin: 5% 3% 5% 0;
+}
+
+/*Title Image*/
+
+.title-image{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+/*Features Section*/
+
+#features{
+    padding: 7% 15%;
+}
+
+.card-row{
+    text-align: center;
+   
+} 
+
+.cardbox{
+    padding: 5% 3%;
+    margin: 0px;
+}
+
+.card-text-title{
+    font: "Montserrat-Black, sans-serif";
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.card-text{
+ color: #BfBfBf;
+}
+
+/* Card Text Image*/
+.fa-solid{
+    color: #ef8172;
+    size: 30%;
+}
+
+.fa-solid:hover{
+    color: #ff4c68;
 }
