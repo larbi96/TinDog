@@ -147,3 +147,49 @@ h2{
     padding: 3% 2%;
     
 }
+
+@media (max-width:1028px){
+
+    #title{
+        text-align: center;
+    }
+
+
+    .title-image{
+        transform: rotate(0);
+        width: 60%;
+        position: static;
+    }
+}
+
+/* Call to Action*/
+
+#cta{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+}
+
+.cta_h3{
+   font: "Montserrat-Black, sans-serif";
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
+    padding: 0 0 7% 0;
+    color: white;
+}
+
+/*Footer*/
+
+#footer{
+    text-align:center;
+    font: "Montserrat-Black, sans-serif";
+    padding: 7% 15%;
+    background-color: white;
+    line-height: 1.5;
+}
+
+.social_icon{
+    margin: 10px 20px;
+    color: black;
+}
