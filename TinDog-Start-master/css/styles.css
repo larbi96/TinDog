@@ -1,24 +1,49 @@
-#title{
-    background-color: #ff4c68;
-    color: white;
-   
-}
+
 
 body{
     font:  "Montserrat-Black, sans-serif";
+    text-align: center;
     
+}
+h1, h2, h3, h4, h5, h6{
+      font: "Montserrat-Black, sans-serif";
+      font-weight: 900;
 }
 
 .intro-text{
-    font: "Montserrat-Black, sans-serif";
     font-size: 3rem;
     line-height: 1.5;
-    font-weight: 900;
 }
 
-.container-fluid{
-    padding: 3% 15% ;
+.section-heading{
+    font-size: 3rem;
+    line-height: 1.5;
 }
+
+/*Container*/
+
+.container-fluid{
+    padding: 7% 15% ;
+}
+
+/*Containers*/
+
+.colored-section{
+    background-color: #ff4c68;
+    color: white;
+}
+
+.white-section{
+    background-color: white;
+}
+
+/*Title Section*/
+
+#title .container-fluid{
+    padding: 3% 15%;
+    text-align: left;
+}
+
 
 .intro-text{
     padding-top: 3%;
@@ -61,15 +86,10 @@ body{
 /*Features Section*/
 
 #features{
-    padding: 7% 15%;
-    background-color: white;
+
     position: relative; 
 }
 
-.card-row{
-    text-align: center;
-   
-} 
 
 .cardbox{
     padding: 5% 3%;
@@ -80,8 +100,6 @@ body{
     font: "Montserrat-Black, sans-serif";
     font-weight: bold;
     font-size: 1.5rem;
-    font-weight: 900;
-
 }
 
 .card-text{
@@ -101,19 +119,13 @@ body{
 
 /*Testimonial Section */
 
-#testimonials{
-  
-    text-align: center;
+#testimonials {
     background-color: #ef8172;
-    color: #fff;
-     
 }
 
-h2{
-    font: "Montserrat-Black, sans-serif";
+.testimonial-text{
     font-size: 3rem;
     line-height: 1.5;
-    font-weight: 900;
 }
 
 .testimonial-image{
@@ -123,14 +135,10 @@ h2{
    background-color: white;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
 
 #press{
     background-color:#ef8172;
     padding-bottom: 3%;
-    text-align: center;
 }
 
 .press-logo{
@@ -138,15 +146,22 @@ h2{
     margin: 20px 20px 50px;
 }
 
+/* Pricing Section*/
+
 #pricing{
     padding:100px;
-    text-align: center;
+}
+
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 .pricing-column{
     padding: 3% 2%;
     
 }
+
 
 @media (max-width:1028px){
 
@@ -164,17 +179,10 @@ h2{
 
 /* Call to Action*/
 
-#cta{
-    text-align: center;
-    padding: 7% 15%;
-    background-color: #ff4c68;
-}
-
 .cta_h3{
    font: "Montserrat-Black, sans-serif";
     font-size: 3.5rem;
     line-height: 1.5;
-    font-weight: 900;
     padding: 0 0 7% 0;
     color: white;
 }
@@ -182,9 +190,7 @@ h2{
 /*Footer*/
 
 #footer{
-    text-align:center;
     font: "Montserrat-Black, sans-serif";
-    padding: 7% 15%;
     background-color: white;
     line-height: 1.5;
 }
